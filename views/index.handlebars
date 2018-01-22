@@ -1,0 +1,15 @@
+<h1>Register</h1>
+<p>{{user.email}}</p>
+
+<form action="/api/register" method="post">
+	<input type="text" placeholder="Email" name="email">
+	<input type="password" placeholder="Password" name="password">
+	<button>Submit</button>
+</form>
+
+<h1>Login</h1>
+<form action="/api/login" method="post">
+	<input type="text" placeholder="Email" name="email">
+	<input type="password" placeholder="Password" name="password">
+	<button>Submit</button>
+</form>
